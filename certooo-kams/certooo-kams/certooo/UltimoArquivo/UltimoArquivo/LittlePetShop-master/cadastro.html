@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Little Pet Shop - Cadastro</title>
+    <link rel="stylesheet" type="text/css" href="css/estilos.css" />
+    <link rel="icon" type="image/png" href="imagens/unnamed.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <!--ínicio-->
+    <header>
+        <a href="index.html">
+            <img id="logo" src="imagens/Image.jpeg" alt="logo do site" />
+        </a>
+    </header>
+    <!--fim -->
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="sobre.html">Sobre</a>
+        <a href="login.html">Login</a>
+        <a href="cadastro.html">Cadastro</a>
+        <a href="produtos.html">Catálogo</a>
+        <a href="agendamento.html"> Agendamento </a>
+        <a href="avaliacoes.html">Avaliações</a>
+        <a href="contato.html">Contato</a>
+    </nav>
+
+    <!--Conteúdo do site (container)-->
+    <div id="container">
+        <div class="container-vence">
+
+            <div id="dadosPet">
+                <h2>Dados do Pet</h2>
+                <form id="frmcadatroPet" name="frmcadastro">
+                    <p>Nome do seu pet</p>
+                    <input class="frmPEET" name="frmpet" id="frmpet" placeholder="Digite o nome do seu pet" required>
+                    
+
+                    <p>Tipo</p>
+                    <select id="frmTipo" class="frmPEEt" name="frmTipo" onchange="selecionarTipo()">
+                        <option value="cachorro">Cachorro</option>
+                        <option value="gato">Gato</option>
+                        <option value="aves">Aves</option>
+                        <option value="outros">Outros</option>
+                    </select>
+
+                    <br/>
+
+                    <input id="frmoutros" class="frmPEEt" name="frmoutros" type="text" placeholder="Digite o tipo do Animal">
+
+                    <p>Data Nasc. Animal</p>
+                    <input id="frmDataAnimal" class="frmPEEt" name="frmDataAnimal" type="date" placeholder="Digite a Data Nasc. do Animal">
+                    <br/>
+                    <input id="frmIdadeAnimal" class="frmPEEt" name="frmIdadeAnimal" type="text" />
+                   
+                </form>
+            </div>
+           
+            <div id="cadastro">
+                <h2>Crie sua conta</h2>
+                <form id="frmcadastro" name="frmcadastro">
+                    <p>ID</p>
+                    <input id="frmid" name="frmid" type="text" placeholder="000.000.000">
+                    <p>Nome Completo</p>
+                    <input id="frmusuario" name="frmusuario" type="text" placeholder="Digite seu nome completo">
+                    <p>Endereço</p>
+                    <input id="frmendereco" name="frmendereco" type="text" placeholder="Digite seu endereço">
+                    <p>Cidade</p>
+                    <input id="frmcidade" name="frmcidade" type="text" placeholder="Digite sua cidade">
+                    <p>UF - Estado</p>
+                    <input id="frmestado" name="frmestado" type="text" placeholder="Digite seu Estado">
+                    <p>E-mail</p>
+                    <input id="frmemail" name="frmemail" type="text" placeholder="Digite seu e-mail">
+                    <p>Telefone</p>
+                    <input id="frmtelefone" name="frmtelefone" type="tel" placeholder="(99) 99999-9999">
+                    <p>Data de Nascimento</p>
+                    <input id="frmdata" name="frmdata" type="date" placeholder="Digite sua data de nascimento">
+                    <p>CPF</p>
+                    <input id="frmcpf" name="frmcpf" type="text" placeholder="xxx.xxx.xxx-xx">
+                    <p>Senha</p>
+                    <input id="frmsenha" type="password" placeholder="Digite sua senha">
+                    <p>Confirme sua Senha</p>
+                    <input id="frmconfirma" type="password" placeholder="Confirme sua senha">
+                    
+
+                    
+
+
+                    <div id="frm-buttons">
+                        <button id="botao-enviar" type="button" onclick="validarDados(),selecionarTipo()">Cadastrar</button>
+                    </div>
+                    
+                </form>
+
+            </div>
+            <div id="mensagem" class="msgSucesso">Mensagem aqui</div>
+        </div>
+
+
+
+    </div>
+
+    <footer>
+        Little Pet Shop © - Todos os direitos reservados
+    </footer>
+
+</body>
+
+<script src="js/cadastro.js"></script>
+
+</html>

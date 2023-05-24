@@ -1,0 +1,1813 @@
+body {
+    display: flex;
+    flex-direction: column;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto-Light';
+    height: 100vh;
+}
+
+#container {
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+#container-vence-avaliacoes {
+    height: 300vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#container-vence-agendamento {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#container-vence-contato {
+    height: 200vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#container-vence-index {
+    height: 200vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#container-vence-sobre {
+    height: 200vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#container-vence-login {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#container-vence-produtos {
+    height: 450vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/********************************/
+
+header {
+    height: 200px;
+    max-height: 200px;
+    background-color: #fccb88;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#logo {
+    height: 170px;
+    padding: 15px 30px;
+    justify-content: center;
+}
+
+/******************************/
+
+nav {
+    justify-content: center;
+    padding: 10px 20px;
+    background-color: #022372;
+    display: flex;
+    justify-content: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    justify-content: center;
+    font-family: 'Roboto-Bold';
+    font-size: 24px;
+    padding: 0px 20px;
+}
+
+nav a:hover {
+    color: #f64b2d;
+    font-weight: bold;
+}
+
+/******************************/
+
+@font-face {
+    font-family: 'Roboto-Light';
+    src: url('../font/Roboto-Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Roboto-Bold';
+    src: url('../font/Roboto-Bold.ttf') format('truetype');
+}
+
+footer {
+    font-family: 'Roboto-Light';
+    background-color: #022372;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin-top: auto;
+}
+
+#imagem-home {
+    height: 500px;
+    min-height: 500px;
+    background-image: url(../imagens/img-home.jpeg);
+    background-size: cover;
+    padding: 150px 0px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+#destaques-pets {
+    display: flex;
+    margin: 60px 10px;
+    justify-content: center;
+}
+
+.box-pets img {
+    height: 225px;
+    padding: 0px 50px;
+}
+
+h1 {
+    font-family: 'Roboto-Bold';
+    font-size: 28px;
+    padding: 30px 0px 0px 0px;
+    color: #f64b2d;
+    text-align: center;
+}
+
+p {
+    font-family: 'Roboto-Light';
+    font-size: 20px;
+    color: black;
+    text-align: center;
+}
+
+#container {
+    width: 100%;
+}
+
+/****************************************************************************/
+/**CSS LOGIN**/
+#container-vence-login {
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+}
+
+
+#login {
+    background-color: #022372;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    justify-content: center;
+    height: 380px;
+    text-align: center;
+    border-radius: 10px;
+    width: 40%;
+    margin: 30px auto;
+}
+
+#frmlogin {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+
+}
+
+#frmlogin p {
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-left: 25px;
+}
+
+#frmlogin input,
+textarea {
+    font-family: 'Roboto-Light';
+    background-color: white;
+    font-size: 16px;
+    border: solid #f64b2d;
+    padding: 10px 15px;
+    color: black;
+    margin: 0px 25px;
+}
+
+#login p {
+    font-size: 18px;
+    color: white;
+    justify-items: left;
+}
+
+#login a {
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+}
+
+#login h2 {
+    color: white;
+    font-size: 24px;
+    font-family: 'Roboto-Bold';
+}
+
+#botao-enviar {
+    font-size: 24px;
+    background-color: #f64b2d;
+    font-family: 'Roboto-Bold';
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 130px;
+    height: 50px;
+    margin-top: 15px;
+}
+
+#botao-enviar:hover {
+    background-color: #fccb88;
+}
+
+#login a:hover {
+    color: #fccb88;
+    font-weight: bold;
+}
+
+/**********************************************************************************************/
+/**CSS CADASTRO**/
+
+
+#dadosPet {
+    background-color: #022372;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    width: 600px;
+    height: 520px;
+    text-align: center;
+    border-radius: 10px;
+    width: 40%;
+    margin: 50px auto;
+}
+
+#frmcadatroPet {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+
+#frmcadatroPet input,
+textarea {
+    font-family: 'Roboto-Light';
+    background-color: white;
+    font-size: 16px;
+    border: solid 3px #f64b2d;
+    padding: 10px 15px;
+    color: black;
+    margin: 0px 25px;
+}
+
+#dadosPet h2 {
+    color: white;
+    font-size: 28px;
+    font-family: 'Roboto-Bold';
+}
+
+#dadosPet p {
+    color: white;
+    justify-items: left;
+    font-size: 18px;
+}
+
+#frmcadatroPet  {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    max-width: 600px;
+}
+
+
+#frmcadatroPet p {
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    margin-left: 25px;
+}
+
+
+#container-vence {
+    display: flex;
+}
+
+
+#cadastro {
+    background-color: #022372;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    width: 300px;
+    height: 1190px;
+    text-align: center;
+    border-radius: 10px;
+    width: 40%;
+    margin: 50px auto;
+}
+
+#frmcadastro {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+}
+
+#frmTipo {
+    margin: 0 25px;
+    height: 43px;
+    max-width: 900px;
+}
+
+#frmpet{
+    max-width: 800px;    
+}
+
+.frmPEEt{
+    font-family: 'Roboto-Light';
+    font-size: 17px;
+    margin: 5px 5px;
+    border: solid 2px #f64b2d;
+    padding: 5px 10px;
+    max-width: 800px;
+    height: 20px;
+}
+
+#frmcadastro input,
+textarea {
+    font-family: 'Roboto-Light';
+    background-color: white;
+    font-size: 16px;
+    border: solid 3px #f64b2d;
+    padding: 10px 15px;
+    color: black;
+    margin: 0px 25px;
+}
+
+#frmcadastro p {
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    margin-left: 25px;
+}
+
+
+#cadastro p {
+    color: white;
+    justify-items: left;
+    font-size: 18px;
+}
+
+#cadastro a {
+    color: white;
+    text-decoration: none;
+}
+
+#cadastro h2 {
+    color: white;
+    font-size: 28px;
+    font-family: 'Roboto-Bold';
+}
+
+#botao-enviar:hover {
+    background-color: #fccb88;
+}
+
+/*****************************************************************/
+/*CSS AGENDAMENTO*/
+
+#dados {
+    margin-bottom: 40px;
+}
+
+#agendamento {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    text-align: center;
+}
+
+#form_container {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#container h3 {
+    color: #f64b2d;
+    font-size: 28px;
+    font-family: 'Roboto-Bold';
+    text-align: center;
+    margin: 70px 0px 10px 0px;
+}
+
+.coluna {
+    display: flex;
+    flex-direction: column;
+}
+
+.frm {
+    font-family: 'Roboto-Light';
+    font-size: 17px;
+    margin: 5px 5px;
+    border: solid 2px #f64b2d;
+    padding: 5px 10px;
+    width: 420px;
+    height: 30px;
+}
+
+.frmagendamento p {
+    margin: 30px 0px 0px 5px;
+}
+
+.frmagendamento p {
+    text-align: left;
+    font-size: 18px;
+}
+
+#frm-buttons {
+    flex-direction: column;
+    justify-items: center;
+    text-align: center;
+    margin: 20px 30px 0px 30px;
+}
+
+#botao-enviar-ag {
+    background-color: #f64b2d;
+    font-family: 'Roboto-Bold';
+    color: white;
+    border: none;
+    font-size: 28px;
+    border-radius: 5px;
+    width: 230px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    padding-bottom: 5px;
+}
+
+#botao-enviar-ag:hover {
+    background-color: #fccb88;
+}
+
+#mensagem {
+    width: 60%;
+    height: 50px;
+    margin: 5px auto;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 20px;
+    display: none;
+}
+
+#mensagem.msgErro {
+    margin-top: auto;
+    margin-bottom: 80px;
+}
+
+#mensagem.msgSucesso {
+    margin-top: auto;
+    max-height: 50px;
+}
+
+.msgErro {
+    color: red;
+    border: 1px solid red;
+    background-color: #f3b7b7;
+}
+
+.msgSucesso {
+    color: green;
+    border: 1px solid green;
+    background-color: #e2f4d2;
+    max-height: 50px;
+}
+
+#frmoutros {
+    display: none;
+}
+
+footer {
+    margin-top: auto;
+    font-size: 18px;
+    padding: 10px;
+}
+
+#bloco1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.coluna {
+    display: flex;
+    flex-direction: column;
+}
+
+.linha {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.linha p {
+    text-align: left;
+    margin: 30px 0px 0px 0px;
+    padding: 5px 5px 0px 5px;
+    font-size: 18px;
+}
+
+#bloco1,
+#bloco2 {
+    justify-content: center;
+}
+
+/**********************************************************************/
+
+/*******CSS SOBRE**********/
+
+#parte1 {
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 0;
+    height: 400px;
+}
+
+#parte2 {
+    display: flex;
+    margin-top: 30px;
+    height: 400px;
+}
+
+legend {
+    font-family: 'Roboto-Light';
+    font-size: 16px;
+    text-align: center;
+}
+
+.mercado {
+    border: 8px solid #f64b2d;
+    border-radius: 10px;
+    margin-top: 60px;
+    margin-left: 80px;
+    margin-right: 80px;
+    height: 300px;
+    width: 400px;
+}
+
+#texto1 {
+    display: flex;
+    margin-top: 80px;
+    margin-right: 90px;
+    margin-left: 40px;
+}
+
+#texto1 p {
+    margin-top: 70px;
+    font-size: 24px;
+    font-family: 'Roboto-Light';
+    text-align: left;
+    text-align: justify;
+}
+
+#text2 {
+    display: flex;
+    margin-top: 130px;
+    margin-left: 90px;
+    margin-right: 80px;
+}
+
+#text2 p {
+    margin-top: 20px;
+    font-size: 24px;
+    font-family: 'Roboto-Light';
+    text-align: left;
+    text-align: justify;
+}
+
+hr {
+    border: solid 3px;
+    width: 100px;
+    justify-content: center;
+    color: #022372;
+}
+
+#conteudo {
+    display: flex;
+    margin: 30px auto;
+}
+
+#video-empres {
+    width: 30%;
+    padding: 33px 0px 20px 0px;
+    margin-top: 50px;
+    margin-right: 30px;
+    padding-left: 90px;
+}
+
+#video-empres video {
+    border-radius: 10px;
+    max-width: 100%;
+
+}
+
+#info-empresa {
+    width: 50%;
+    margin-left: 30px;
+}
+
+#info-empresa p {
+    font-family: 'Roboto-Light';
+    padding-left: 20px;
+    text-align: left;
+    text-align: justify;
+    font-size: 24px;
+    margin-right: 30px;
+    margin-top: 90px;
+}
+
+/*************************************************************************************************/
+/************************************CSS CONTATO********************************/
+
+#contatos {
+    height: 150px;
+    margin: 10px;
+}
+
+#texto-p-contato p {
+    font-family: 'Roboto-Light';
+    font-size: 20px;
+}
+
+#texto-p-contato h1 {
+    font-size: 24px;
+}
+
+#principal {
+    display: flex;
+    padding: 40px 100px 40px 100px;
+
+}
+
+#mapa {
+    display: flex;
+    width: 700px;
+    height: 700px;
+    padding: 40px 60px 40px 60px;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+#informacoes {
+    flex-direction: column;
+    display: flex;
+    width: 800px;
+}
+
+#informacoes p {
+    justify-content: left;
+}
+
+#localiza {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    height: 900px;
+}
+
+#icones {
+    justify-content: center;
+}
+
+#fot-icon {
+    width: 350px;
+    justify-content: center;
+}
+
+#textos {
+    justify-content: left;
+    height: 500px;
+}
+
+#textos p {
+    text-align: left;
+    font-family: 'Roboto-Light';
+    font-size: 18px;
+}
+
+#redes {
+    width: 300px;
+}
+
+#redes-div {
+    padding: 15px;
+    justify-content: center;
+    text-align: center;
+}
+
+/*******************************************************************************/
+/*CSS CATÁLOGO*/
+
+#container-vence-produtos {
+    max-height: 2800px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+#alimentacao {
+    font-family: 'Roboto-Bold';
+    font-size: 20px;
+    padding: 50px;
+    color: #f64b2d;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0px 100px 0px 100px;
+
+    text-align: center;
+}
+
+#alimentacao1,
+#alimentacao2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#acessorio {
+    font-family: 'Roboto-Bold';
+    font-size: 20px;
+    padding: 50px;
+    color: #f64b2d;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0px 100px 0px 100px;
+    text-align: center;
+}
+
+#acessorio1,
+#acessorio2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+#higiene {
+    font-family: 'Roboto-Bold';
+    font-size: 20px;
+    padding: 50px;
+    color: #f64b2d;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0px 100px 0px 100px;
+    text-align: center;
+}
+
+#higiene1,
+#higiene2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+#alimentacao p,
+#acessorio p,
+#higiene p {
+    font-size: 18px;
+    margin: 0px;
+}
+
+/*************************************************************************************************/
+/*CSS AVALIAÇÕES*/
+
+.divs {
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+}
+
+#maior {
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    margin: 20px 30px;
+}
+
+#maior h1 {
+    padding: 0px;
+    margin-top: 50px;
+}
+
+.h1s h1 {
+    font-size: 24px;
+    margin-bottom: 0;
+}
+
+.area-grafico {
+    height: 500px;
+    margin: 50px 0px 50px 0px;
+    width: 700px;
+}
+
+
+/**********************************************************************************/
+/*RESPONSIVIDADE TABLET*/
+@media (min-width: 768.02px) and (max-width:1023px) {
+
+    #imagem-home {
+        background-image: url(../imagens/img-responsivo.jpg);
+
+    }
+
+    /******INDEX******/
+    footer {
+        margin-top: auto;
+    }
+
+
+    body {
+        font-size: 20px;
+    }
+
+    header {
+        flex-direction: column;
+        height: 400px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    nav {
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        padding: 10px 20px;
+        max-width: 1023px;
+    }
+
+    nav a {
+        padding: 0px 12px;
+        font-size: 20px;
+        justify-content: center;
+    }
+
+    #imagem-home {
+        padding: 30px 0px;
+        max-width: 1023px;
+    }
+
+    #container h1 {
+        text-align: center;
+        font-size: 20px;
+    }
+
+    #destaques-pets {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    .box-pets img {
+        width: 260px;
+        height: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        padding: 10px 5px;
+    }
+
+    #container p {
+        font-size: 18px;
+
+    }
+
+    #container {
+        justify-content: center;
+        max-width: 1023px;
+    }
+
+    #container p,
+    h1 {
+        max-width: 1023px;
+    }
+
+    #logo {
+        width: 80%;
+    }
+
+
+
+    /******SOBRE******/
+
+    #container-vence-sobre {
+        height: 100vh;
+    }
+
+    #servicos h1 {
+        font-size: 20px;
+    }
+
+    #parte1 {
+        display: flex;
+        margin-top: 30px;
+        max-height: 250px;
+        margin-bottom: 20px;
+    }
+
+    #parte2 {
+        display: flex;
+        max-height: 250px;
+        margin-top: 30px;
+    }
+
+    .mercado {
+        border: 8px solid #f64b2d;
+        border-radius: 10px;
+        margin-top: 0;
+        margin-left: 30px;
+        margin-right: 40px;
+        height: 200px;
+        width: 300px;
+    }
+
+    #texto1 {
+        display: flex;
+        margin: 0px 20px 0px 10px;
+    }
+
+    #text2 {
+        display: flex;
+        margin: 0px 10px 0px 25px;
+    }
+
+    #servicos {
+        margin: 0;
+        padding: 0;
+        min-width: 100%;
+    }
+
+
+    #conteudo {
+        margin: 0px 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        max-width: 800px;
+    }
+
+    #conteudo p {
+        width: 400px;
+    }
+
+    #video-empres {
+        margin: 0;
+        min-width: 100%;
+        padding: 20px 10px;
+        justify-content: center;
+        display: flex;
+
+    }
+
+    #video-empres video {
+        max-height: 400px;
+        max-width: 400px;
+        padding: 0;
+        border: 10px;
+
+    }
+
+    #info-empresa {
+        display: flex;
+        justify-content: center;
+        margin: 0px;
+        width: 600px;
+        max-height: 700px;
+    }
+
+    #conteudo p {
+        padding: 0;
+        margin: 0;
+        width: 100px;
+    }
+
+    #info-empresa p {
+        font-size: 18px;
+        width: 100%;
+        min-width: 500px;
+    }
+
+    /*********LOGIN************/
+
+    #container-vence-login {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 80px;
+        height: 100vh;
+    }
+
+    #login {
+        margin-top: 100px;
+        background-color: #022372;
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        justify-content: center;
+        height: 420px;
+        text-align: center;
+        border-radius: 10px;
+        width: 70%;
+        margin: auto;
+    }
+
+    #botao-enviar {
+        width: 170px;
+    }
+
+
+
+    /*********CADASTRO************/
+    #dadosPet {
+        margin: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        width: 500px;
+        height: 530px;
+        text-align: center;
+        width: 70%;
+        margin: 40px auto;
+
+    }
+
+    #cadastro {
+        background-color: #022372;
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        width: 500px;
+        height: 1220px;
+        text-align: center;
+        border-radius: 10px;
+        width: 70%;
+        margin: 40px auto;
+    }
+
+    #mensagem.msgErro {
+        margin-bottom: 40px;
+    }
+
+    #mensagem.msgSucesso {
+        margin-bottom: 40px;
+        max-height: 50px;
+        padding: 5px;
+    }
+
+    /*********CATÁLOGO************/
+
+    #higiene p {
+        font-size: 18px;
+    }
+
+    #acessorio p {
+        font-size: 18px;
+    }
+
+    #alimentacao {
+        font-family: 'Roboto-Bold';
+        font-size: 20px;
+        padding: 20px;
+        color: #f64b2d;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0px 10px 0px 10px;
+        text-align: center;
+    }
+
+    #acessorio {
+        font-family: 'Roboto-Bold';
+        font-size: 20px;
+        padding: 20px;
+        color: #f64b2d;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 10px 10px 10px 10px;
+        text-align: center;
+    }
+
+    #higiene {
+        font-family: 'Roboto-Bold';
+        font-size: 20px;
+        padding: 20px;
+        color: #f64b2d;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 10px 10px 0px 10px;
+        text-align: center;
+    }
+
+    #container-vence-login {
+        height: 100%;
+    }
+
+
+    /**********CONTATO************/
+    #principal {
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+        padding: 40px 10px 40px 10px;
+    }
+
+    #contatos {
+        height: 100px;
+    }
+
+    #mapa iframe {
+        margin: auto;
+    }
+
+    #mapa {
+        display: flex;
+        width: 700px;
+        height: 700px;
+        padding: auto;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    #localiza {
+        max-height: 600px;
+    }
+
+    #icones {
+        justify-content: center;
+    }
+
+    #fot-icon {
+        width: 300px;
+        justify-content: center;
+    }
+
+    #texto-p-contato p {
+        font-size: 20px;
+    }
+
+    #texto-p-contato h1 {
+        font-size: 24px;
+    }
+
+    #textos p {
+        text-align: left;
+        font-family: 'Roboto-Light';
+        font-size: 20px;
+        margin: 10px;
+    }
+
+    #redes-div {
+        padding: 0px;
+        justify-content: center;
+        text-align: center;
+        justify-items: center;
+    }
+
+    /**************AGENDAMENTO************/
+
+    #agendamento {
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        text-align: center;
+    }
+
+    #form_container {
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+        height: 70vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #bloco1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .coluna {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .linha {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+
+
+    /*****************************************************/
+    /*AVALIAÇÕES*/
+    .divs {
+        display: flex;
+        justify-content: space-around;
+        justify-items: center;
+        flex-direction: column;
+    }
+
+    .area-grafico {
+        height: 300%;
+        width: 110%;
+    }
+}
+
+
+
+
+/*********************************
+Estilos para responsabilidade CELULAR
+***********************************/
+
+@media (max-width: 768px) {
+    body {
+        font-size: 20px;
+    }
+
+    header {
+        flex-direction: column;
+        height: 400px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    nav {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        max-width: 576px;
+    }
+
+    nav a {
+        font-size: 24px;
+        justify-content: center;
+        padding: 3px;
+    }
+
+    #imagem-home {
+        padding: 30px 0px;
+        max-width: 576px;
+    }
+
+    #destaques-pets {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    .box-pets img {
+        height: 150px;
+        max-width: 85%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        padding: 20px 5px;
+    }
+
+    #container {
+        justify-content: center;
+        max-width: 576px;
+    }
+
+    #container p,
+    h1 {
+        max-width: 576px;
+    }
+
+    #container h1 {
+        font-size: 20px;
+    }
+
+    #container p {
+        font-size: 18px;
+    }
+
+    #logo {
+        width: 80%;
+    }
+
+    /*****sobre*****/
+    #parte1 {
+        padding: 0;
+        flex-direction: column-reverse;
+        max-width: 85%;
+        margin: 350px auto 20px auto;
+    }
+
+    #container-vence-sobre {
+        height: 130vh;
+        margin-bottom: 350px;
+    }
+
+    #servicos {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .mercado {
+        border: 5px solid #f64b2d;
+        border-radius: 10px;
+        margin: 20px 20px 0px 40px;
+        padding: 0;
+        height: 150px;
+        max-width: 75%;
+    }
+
+    #texto1 p {
+
+        text-align: justify;
+        font-size: 18px;
+
+    }
+
+    #texto1 {
+        margin-top: 20px;
+        margin-left: 20px;
+        padding: 0;
+        width: 90%;
+    }
+
+    #parte2 {
+        margin: 20px;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        max-width: 85%;
+        height: 50%;
+        padding: 0;
+    }
+
+    #text2 p {
+        min-width: 100%;
+        margin-top: 0;
+        text-align: justify;
+        font-size: 18px;
+        margin-top: 0;
+    }
+
+    #text2 {
+        padding-left: 20px;
+        margin-top: auto;
+        width: 90%;
+        margin-left: 0;
+    }
+
+    #servicos {
+        margin: 0;
+        padding: 0;
+        min-width: 100%;
+    }
+
+    #servicos hr {
+        width: 30px;
+    }
+
+    #conteudo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 95%;
+    }
+
+    #video-empres {
+        padding: 0px;
+        margin: 0;
+        min-width: 80%;
+        padding-bottom: 20px;
+    }
+
+    #info-empresa p {
+        margin: 0 40px;
+        padding: 0;
+        font-size: 18px;
+    }
+
+    #info-empresa {
+        padding: 20px 0;
+        margin: 0;
+        min-width: 100%;
+    }
+
+    /******login*****************************/
+
+    #container-vence-login {
+        height: 80vh;
+
+    }
+
+    #login {
+        width: 350px;
+        flex-direction: column;
+        justify-items: center;
+        display: flex;
+        margin: 40px 15px;
+        height: 380px;
+    }
+
+    #botao-enviar {
+        margin-top: 0;
+
+    }
+
+    #frmlogin p {
+        font-size: 18px;
+    }
+
+    #login h2 {
+        font-size: 24px;
+    }
+
+    /*************cadastro**************************/
+   
+    #frmcadatroPet{
+        margin: 0 auto;
+    }  
+
+    #frmcadatroPet p {
+        margin-left: 0;
+    }    
+
+    #dadosPet {
+        max-height: 500px;
+        width: 350px;
+        flex-direction: column;
+        justify-items: center;
+        display: flex;
+    }
+
+    #dadosPet input {
+        margin: 0;
+        padding: 0;
+        width: 350px;
+    }
+
+    #dadosPet select {
+        width: 350px;
+        margin: 0;
+        padding: 0;
+        height: 35px;
+    }
+
+    #cadastro {
+        width: 350px;
+        flex-direction: column;
+        justify-items: center;
+        display: flex;
+        margin: 40px 20px;
+        
+    }
+
+    #frmTipo {
+        height: 39px;
+        max-width: 300px;
+    }
+    
+    #frmpet{
+        max-width: 300px;
+        height: 39px;
+        
+    }
+    
+    .frmPEEt{
+        max-width: 300px;
+        height: 39px;
+    }
+
+
+    #cadastro h2 {
+        font-size: 24px;
+    }
+
+    #container-vence {
+        height: 100vh;
+    }
+
+    #mensagem.msgErro {
+        margin-bottom: 40px;
+        text-align: center;
+        padding:10px;
+    }
+
+    .msgErro {
+        min-height: 75px;
+         
+    }
+
+    #mensagem.msgSucesso {
+        margin-bottom: 40px;
+        max-height: 50px;
+        padding: 5px;
+    }
+
+    #container-vence-cadastro {
+        height: 60vh;
+    }
+
+    /*************produtos**************************/
+    #container-vence-produtos {
+        max-height: 750vh;
+    }
+
+    #arrumar{
+        margin-top: 20px;
+    }
+
+    #alimentacao,
+    #higiene,
+    #acessorio {
+        padding: 0;
+        margin: 0;
+    }
+
+    .div_card h4 {
+        margin: 0;
+    }
+
+    .div_card p {
+        padding-bottom: 15px;
+    }
+
+    #alimentacao h2,
+    #higiene h2,
+    #acessorio h2 {
+        margin-top: 100px;
+    }
+
+    #container-vence-produtos {
+        height: 690vh;
+    }
+
+    #alimentacao1,
+    #alimentacao2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    #acessorio1,
+    #acessorio2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    #higiene1,
+    #higiene2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+    }
+
+    /*************contato**************************/
+    #principal {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        height: 1380px;
+        margin: 0;
+        padding: 0;
+    }
+
+    #redes-div {
+        width: 300px;
+        margin: 0;
+        padding: 20px;
+    }
+
+    #redes {
+        justify-content: center;
+        width: 350px;
+    }
+
+
+    #mapa iframe {
+        max-width: 350px;
+        padding: 20px;
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    #mapa {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        padding: 0;
+        margin-top: 100px;
+    }
+
+    #informacoes {
+        max-height: 700px;
+        margin-bottom: 50px;
+    }
+
+
+    #localiza {
+        margin-bottom: 100px;
+        padding: 0;
+        max-height: 100%;
+        max-width: 100%;
+    }
+
+    #localiza p {
+        font-size: 20px;
+    }
+
+    #textos p {
+        font-size: 18px;
+        margin-left: 5px;
+    }
+
+    #textos {
+        margin-bottom: auto;
+        max-width: 400px;
+        max-height: 600px;
+    }
+
+    #fot-icon {
+        width: 300px;
+        height: 100px;
+    }
+
+    #icones {
+        width: 400px;
+        text-align: center;
+    }
+
+    #texto-p-contato {
+        margin-top: 50px;
+    }
+
+    #texto-p-contato p {
+        margin: 15px;
+    }
+
+    /********agendamento********/
+
+    #agendamento {
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        text-align: center;
+    }
+
+    #form_container {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding: 20px;
+        height: 100%;
+        width: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #form_container h3 {
+        font-size: 24px;
+    }
+
+    #bloco1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .coluna {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .linha {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .frm {
+        max-width: 300px;
+    }
+
+    #frmtipos {
+        max-width: 330px;
+    }
+
+    .frmagendamento {
+        min-width: 300px;
+    }
+
+    .frmagendamento p {
+        margin-left: 10px;
+    }
+
+    .linha p {
+        margin-left: 10px;
+
+    }
+
+    /***********************************************/
+    /*AVALIAÇÕES*/
+
+    .divs {
+        display: flex;
+        justify-content: space-around;
+        justify-items: center;
+        flex-direction: column;
+    }
+
+    .divs h1 {
+        margin-bottom: 0px;
+        font-size: 24px;
+    }
+
+
+
+    .area-grafico {
+        height: 200%;
+        width: 110%;
+    }
+
+}
+
+/***************************************************************/
+#tabela-dados {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 35px;
+}
+
+th {
+    background-color: #f64b2d;
+    color: white;
+    border: none;
+    padding: 2px 10px;
+}
+
+.listra {
+    background-color: rgb(241, 208, 184);
+}
+
+td, tbody, tr, thead{
+    font-size: 18px;
+}
